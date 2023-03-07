@@ -1,0 +1,83 @@
+/*  
+  الستيل الخاص باستمارة اضافة نزيل 
+  وتسجيل نزيل بشكل مباشر في قاعدة البيانات الاساسية 
+
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+h2 {
+    text-align:center;
+    margin-top: 50px;
+
+}
+#long{
+    margin-top: 20px;
+    margin-left:250px;
+    overflow: hidden;
+color: darkblue;
+border-style: solid;
+border-color: rgb(0, 0, 0);
+border-width: 2px;
+height:auto;
+ width:60%;
+ font-size: 18px;
+ text-align: center;
+ 
+}
+.far3 , .select-in{
+width: 250px;
+margin: 20px 40px;
+}
+.s-input{
+    display: inline-block;  
+    width: 250px;
+    margin: 20px 35px;
+  
+}
+#startdata{
+  
+    color:rgb(16, 112, 29) ;
+}
+#enddata{
+    color: rgb(44, 47, 238) ;
+}
+.labeldata1{
+color:rgb(16, 112, 29) ;
+}
+.labeldata2{
+color: mediumblue;
+}
+.labeldata1 , .labeldata2  {
+    margin-left: 160px;
+    margin-right: 110px;
+
+
+}
+
+.sub{
+    margin-bottom: 15px;
+    margin-left: 10px;
+    min-width: 100px;
+    background-color: rgb(96, 247, 51);
+    color:rgb(25, 0, 255) ;
+     margin-top: 20px;
+     border-radius: 5px;
+     
+}
+.subexe{
+    background-color: #0076fd;
+    padding-left:15px;
+    padding-right:15px;
+
+   text-decoration: none;
+    color:rgb(0, 0, 0) ;
+
+}
+::selection {
+    background-color: gainsboro;
+    color: rgb(3, 3, 3);
+}
